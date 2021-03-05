@@ -1,0 +1,1 @@
+enum class ClienteTipo { PF, PJ }
