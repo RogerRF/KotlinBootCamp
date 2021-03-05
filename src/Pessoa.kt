@@ -1,18 +1,5 @@
-class Pessoa {
-    var nome: String = "Roger"
-    var cpf: String = "123.456.789.01"
-    private set
+open class Pessoa(
+    open val nome: String,
+    open val cpf: String
+)
 
-    //constructor()
-
-    fun getData() = cpf +" - "+ nome
-}
-
-fun main () {
-
-    val p = Pessoa()
-
-    println(p)
-    println(p.getData())
-
-}
