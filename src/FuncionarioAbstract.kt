@@ -3,6 +3,6 @@ abstract class FuncionarioAbstract (
     cpf: String,
     val salario: Double
 ) : Pessoa(nome, cpf) {
-    abstract fun calculoAuxilio()
+    protected abstract fun calculoAuxilio() : Double
 
 }
